@@ -1,0 +1,124 @@
+body {
+  background: linear-gradient(180deg, #f7f8fa 0%, #f1f3f6 100%);
+  min-height: 100vh;
+  color: #101828;
+}
+
+.max-w-sm {
+  max-width: 520px;
+}
+
+.login-page-wrap {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.task-form-card {
+  border: 1px solid #e6e8ec !important;
+  background: #fcfcfd;
+}
+
+.card.shadow-sm {
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.card.shadow-sm:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.06) !important;
+}
+
+.task-card {
+  border: 1px solid #e6e8ec !important;
+  background: #ffffff;
+}
+
+.task-card-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+}
+
+.pill {
+  font-weight: 500;
+  border-radius: 999px;
+  padding: 0.35rem 0.58rem;
+  border: 1px solid #d9dde3;
+}
+
+.pill-status,
+.pill-priority,
+.pill-id {
+  background: #f8f9fb !important;
+  color: #344054 !important;
+}
+
+.status-done {
+  border-color: #c7e7d3;
+  color: #146c43 !important;
+  background: #f0faf4 !important;
+}
+
+.status-in-progress {
+  border-color: #d5dae1;
+}
+
+.status-todo {
+  border-color: #d5dae1;
+}
+
+.priority-high {
+  border-color: #f0d0d0;
+  color: #b42318 !important;
+  background: #fef3f2 !important;
+}
+
+.priority-medium {
+  border-color: #e4e6eb;
+}
+
+.priority-low {
+  border-color: #d5e4f5;
+  color: #175cd3 !important;
+  background: #f0f6ff !important;
+}
+
+.task-action-btn {
+  border: 1px solid #d9dde3 !important;
+  background: #ffffff !important;
+  color: #344054 !important;
+}
+
+.task-action-btn:hover {
+  background: #f6f8fa !important;
+  color: #101828 !important;
+}
+
+.task-action-btn.delete {
+  color: #b42318 !important;
+  border-color: #f0d0d0 !important;
+}
+
+.task-action-btn.delete:hover {
+  background: #fef3f2 !important;
+}
+
+.stat-card {
+  border: 1px solid #e6e8ec !important;
+}
+
+.toast {
+  border: 1px solid #00992e;
+  box-shadow: 0 10px 24px rgba(16, 24, 40, 0.08);
+}
